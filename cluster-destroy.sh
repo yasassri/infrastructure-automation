@@ -4,7 +4,7 @@ prgdir=$(dirname "$0")
 script_path=$(cd "$prgdir"; pwd)
 
 # Seems Jenkins is not picking the Path variables from the system, hence as a workaroubd setting the path
-TERRA_HOME=/home/wso2/terraform
+TERRA_HOME=/etc/terraform
 export PATH=$TERRA_HOME:$PATH
 
 terraform destroy -force

@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /bin/bash
 
 #This file is invokes via init.sh
 ##Create infrastructure and inventory file
